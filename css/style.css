@@ -1,18 +1,48 @@
+header {
+    min-height: 90px;
+}
+
 .logo-area {
-  position: relative;
-  display: inline-block;
+    position: absolute;
+    left: 40px;
+    top: -50px;
+    z-index: 1000;
 }
 
 .logo {
-  width: 200px;
-  height: 150px;
-  object-fit: contain;
-
-  position: absolute;
-  left: 50%;
-  top: -25px;
+    width: 200px;
+    height: auto;
+    object-fit: contain;
 }
 
+/* Mobile / hamburger menu layout */
+@media (max-width: 1199px) {
+    #mainNavbar {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100vw;
+        background: white;
+        z-index: 999;
+        padding: 20px 0;
+    }
+
+    #mainNavbar .navbar-nav {
+        align-items: flex-start;
+        text-align: left;
+        padding-left: 40px;
+    }
+
+    #mainNavbar .nav-link {
+        color: black;
+        font-size: 2rem !important;
+        margin: 8px 0;
+    }
+
+    #mainNavbar .nav-link:hover {
+        color: red !important;
+    }
+}
 html {
   scroll-behavior: smooth;
 }
@@ -24,4 +54,18 @@ body {
 .section-padding {
   padding: 100px 0;
   scroll-margin-top: 100px;
+}
+
+.navbar-nav .nav-link {
+    color: black;
+}
+.nav-link:hover {
+    color: red !important;
+}
+.nav-link {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+body {
+    font-family: 'Oswald', sans-serif;
 }
