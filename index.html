@@ -13,6 +13,114 @@
 </head>
 <body>
     <!-- Content -->
+     
+    <!-- Header -->
+    <header class="container-fluid py-3 shadow-sm fixed-top bg-white">
+        <div class="row align-items-center px-4">
+            <!-- Logo -->
+            <div class="col-6 col-md-3 text-start position-relative">
+                <a href="index.html" class="text-decoration-none text-dark logo-area">
+                    <img src="images/hibachilogo.png" alt="Hibachi Logo" class="logo">
+                </a>
+            </div>
+            <!-- Navigation Bar -->
+            <!-- Hamburger + Nav -->
+            <div class="col-6 col-md-9 text-end">
+            <nav class="navbar navbar-expand-md justify-content-end">
+
+                <!-- Hamburger Button -->
+                <button 
+                class="navbar-toggler" 
+                type="button" 
+                data-bs-toggle="collapse" 
+                data-bs-target="#mainNavbar"
+                aria-controls="mainNavbar" 
+                aria-expanded="false" 
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Only these links collapse -->
+                <div class="collapse navbar-collapse justify-content-end" id="mainNavbar">
+                <div class="navbar-nav text-center">
+                    <a href="#menu" class="nav-link mx-2 fs-3">Menu</a>
+                    <a href="#contact" class="nav-link mx-2 fs-3">Contact</a>
+                    <a href="#reserve" class="nav-link mx-2 fs-3">Reserve</a>
+                    <a href="#photos" class="nav-link mx-2 fs-3">Photos</a>
+                    <a href="#faq" class="nav-link mx-2 fs-3">FAQ</a>
+                </div>
+                </div>
+
+            </nav>
+            </div>
+        </div>
+    </header>
+    <main>
+
+  <!-- Menu Section -->
+  <section id="menu" class="section-padding">
+    <div class="container text-center">
+      <h1 class="mb-4">Menu</h1>
+      <p>Explore our hibachi dishes, sushi, appetizers, and specials.</p>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="section-padding bg-light">
+    <div class="container text-center">
+      <h1 class="mb-4">Contact</h1>
+      <p>Call us at: (123) 456-7890</p>
+      <p>Email: example@email.com</p>
+      <p>Address: 123 Main Street, Lowell, MA</p>
+    </div>
+  </section>
+
+  <!-- Reserve Section -->
+  <section id="reserve" class="section-padding">
+    <div class="container text-center">
+      <h1 class="mb-4">Reserve</h1>
+      <p>Make a reservation for dine-in, parties, or special events.</p>
+      <a href="tel:1234567890" class="btn btn-dark">Call to Reserve</a>
+    </div>
+  </section>
+
+  <!-- Photos Section -->
+  <section id="photos" class="section-padding bg-light">
+    <div class="container text-center">
+      <h1 class="mb-4">Photos</h1>
+      <p>Add restaurant, food, and dining photos here.</p>
+
+      <div class="row">
+        <div class="col-md-4 mb-3">
+          <img src="images/testimage.png" class="img-fluid rounded" alt="Food photo">
+        </div>
+        <div class="col-md-4 mb-3">
+          <img src="images/testimage.png" class="img-fluid rounded" alt="Food photo">
+        </div>
+        <div class="col-md-4 mb-3">
+          <img src="images/testimage.png" class="img-fluid rounded" alt="Food photo">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ Section -->
+  <section id="faq" class="section-padding">
+    <div class="container">
+      <h1 class="text-center mb-4">FAQ</h1>
+
+      <h4>Do you accept reservations?</h4>
+      <p>Yes, reservations are accepted by phone.</p>
+
+      <h4>Do you offer takeout?</h4>
+      <p>Yes, takeout is available.</p>
+
+      <h4>Do you host parties?</h4>
+      <p>Yes, we can host birthdays, family dinners, and group events.</p>
+    </div>
+  </section>
+</main>
+
 
     <!-- jQuery -->
     <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>

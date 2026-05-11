@@ -1,0 +1,27 @@
+.logo-area {
+  position: relative;
+  display: inline-block;
+}
+
+.logo {
+  width: 200px;
+  height: 150px;
+  object-fit: contain;
+
+  position: absolute;
+  left: 50%;
+  top: -25px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  padding-top: 90px;
+}
+
+.section-padding {
+  padding: 100px 0;
+  scroll-margin-top: 100px;
+}
