@@ -82,7 +82,9 @@ html {
 }
 
 body {
+  font-family: 'Oswald', sans-serif;
   padding-top: 0px;
+  padding-bottom: 120px;
 }
 
 .section-padding {
@@ -99,7 +101,4 @@ body {
 .nav-link {
     text-transform: uppercase;
     letter-spacing: 1px;
-}
-body {
-    font-family: 'Oswald', sans-serif;
 }
